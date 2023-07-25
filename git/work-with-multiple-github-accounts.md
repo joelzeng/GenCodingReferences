@@ -22,7 +22,7 @@ First make sure your current directory is your **.ssh** folder.
 ```
 Syntax for generating unique ssh key for ann account is:
 ```sh
-     ssh-keygen -t rsa -C "your-email-address" -f "github-username"
+     ssh-keygen -t ed25519 -C "your-email-address" -f "github-username"
 ```
 here,
 
@@ -33,8 +33,8 @@ here,
 
 #### Now generating SSH keys for my two accounts
 ```sh
-     ssh-keygen -t rsa -C "my_office_email@gmail.com" -f "github-rahul-office"
-     ssh-keygen -t rsa -C "my_personal_email@gmail.com" -f "github-rahul-personal"
+     ssh-keygen -t ed25519 -C "my_office_email@gmail.com" -f "github-rahul-office"
+     ssh-keygen -t rsed25519a -C "my_personal_email@gmail.com" -f "github-rahul-personal"
 ```
 
 Notice here **rahul-office** and **rahul-work** are the username of my github accounts corresponding to **my_office_email<span></span>@gmail.com** and **my_personal_email<span></span>@gmail.com** email ids respectively.
